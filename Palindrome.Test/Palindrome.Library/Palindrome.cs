@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Palindrome.Library
+namespace Palindrome
 {
-    public class PalindromeLib
+    public class Palindrome
     {
         public string input {get; set;}
         public bool CheckIfPalindrome(string input)
