@@ -1,0 +1,11 @@
+C:\revature\assessment-week1\wesley-assessment-week1\wesley-assessment-week1\bin\Debug\netcoreapp3.0\wesley-assessment-week1.exe
+C:\revature\assessment-week1\wesley-assessment-week1\wesley-assessment-week1\bin\Debug\netcoreapp3.0\wesley-assessment-week1.deps.json
+C:\revature\assessment-week1\wesley-assessment-week1\wesley-assessment-week1\bin\Debug\netcoreapp3.0\wesley-assessment-week1.runtimeconfig.json
+C:\revature\assessment-week1\wesley-assessment-week1\wesley-assessment-week1\bin\Debug\netcoreapp3.0\wesley-assessment-week1.runtimeconfig.dev.json
+C:\revature\assessment-week1\wesley-assessment-week1\wesley-assessment-week1\bin\Debug\netcoreapp3.0\wesley-assessment-week1.dll
+C:\revature\assessment-week1\wesley-assessment-week1\wesley-assessment-week1\bin\Debug\netcoreapp3.0\wesley-assessment-week1.pdb
+C:\revature\assessment-week1\wesley-assessment-week1\wesley-assessment-week1\obj\Debug\netcoreapp3.0\wesley-assessment-week1.csprojAssemblyReference.cache
+C:\revature\assessment-week1\wesley-assessment-week1\wesley-assessment-week1\obj\Debug\netcoreapp3.0\wesley-assessment-week1.AssemblyInfoInputs.cache
+C:\revature\assessment-week1\wesley-assessment-week1\wesley-assessment-week1\obj\Debug\netcoreapp3.0\wesley-assessment-week1.AssemblyInfo.cs
+C:\revature\assessment-week1\wesley-assessment-week1\wesley-assessment-week1\obj\Debug\netcoreapp3.0\wesley-assessment-week1.dll
+C:\revature\assessment-week1\wesley-assessment-week1\wesley-assessment-week1\obj\Debug\netcoreapp3.0\wesley-assessment-week1.pdb

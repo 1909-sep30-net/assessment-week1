@@ -1,0 +1,8 @@
+C:\revature\assessment-week1\wesley-assessment-week1\Assessment-Week1.Library\bin\Debug\netstandard2.0\Assessment-Week1.Library.deps.json
+C:\revature\assessment-week1\wesley-assessment-week1\Assessment-Week1.Library\bin\Debug\netstandard2.0\Assessment-Week1.Library.dll
+C:\revature\assessment-week1\wesley-assessment-week1\Assessment-Week1.Library\bin\Debug\netstandard2.0\Assessment-Week1.Library.pdb
+C:\revature\assessment-week1\wesley-assessment-week1\Assessment-Week1.Library\obj\Debug\netstandard2.0\Assessment-Week1.Library.csprojAssemblyReference.cache
+C:\revature\assessment-week1\wesley-assessment-week1\Assessment-Week1.Library\obj\Debug\netstandard2.0\Assessment-Week1.Library.AssemblyInfoInputs.cache
+C:\revature\assessment-week1\wesley-assessment-week1\Assessment-Week1.Library\obj\Debug\netstandard2.0\Assessment-Week1.Library.AssemblyInfo.cs
+C:\revature\assessment-week1\wesley-assessment-week1\Assessment-Week1.Library\obj\Debug\netstandard2.0\Assessment-Week1.Library.dll
+C:\revature\assessment-week1\wesley-assessment-week1\Assessment-Week1.Library\obj\Debug\netstandard2.0\Assessment-Week1.Library.pdb
