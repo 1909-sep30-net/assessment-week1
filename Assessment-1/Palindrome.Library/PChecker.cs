@@ -9,7 +9,7 @@ namespace Palindrome.Library
     {
         public bool CheckPalindrome(String s) {
             //removes whitespace
-            RemoveWhiteSpace(s);
+            s = RemoveWhiteSpace(s);
 
             //reverses string
             string srev = ReverseString(s);
