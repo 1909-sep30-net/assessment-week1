@@ -1,0 +1,8 @@
+C:\revature\codingQuizes\assessment-week1\palindromeLib\bin\Debug\netstandard2.0\palindromeLib.deps.json
+C:\revature\codingQuizes\assessment-week1\palindromeLib\bin\Debug\netstandard2.0\palindromeLib.dll
+C:\revature\codingQuizes\assessment-week1\palindromeLib\bin\Debug\netstandard2.0\palindromeLib.pdb
+C:\revature\codingQuizes\assessment-week1\palindromeLib\obj\Debug\netstandard2.0\palindromeLib.csprojAssemblyReference.cache
+C:\revature\codingQuizes\assessment-week1\palindromeLib\obj\Debug\netstandard2.0\palindromeLib.AssemblyInfoInputs.cache
+C:\revature\codingQuizes\assessment-week1\palindromeLib\obj\Debug\netstandard2.0\palindromeLib.AssemblyInfo.cs
+C:\revature\codingQuizes\assessment-week1\palindromeLib\obj\Debug\netstandard2.0\palindromeLib.dll
+C:\revature\codingQuizes\assessment-week1\palindromeLib\obj\Debug\netstandard2.0\palindromeLib.pdb
