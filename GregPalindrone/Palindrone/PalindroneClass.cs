@@ -13,7 +13,7 @@ namespace Palindrone
             Text = text;
         }
 
-        public static bool isPalindrone()
+        public bool isPalindrone()
         {
             char[] textArray = Text.ToCharArray();
             int i = 0;
@@ -31,11 +31,13 @@ namespace Palindrone
                 }
                 if(i < j)
                 {
-                    if(i != j)
+                    if(textArray[i] != textArray[j])
                     {
                         return false;
                     }
                 }
+                i++;
+                j--;
             }
             return true;
         }
