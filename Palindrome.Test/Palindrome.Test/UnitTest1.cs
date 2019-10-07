@@ -1,6 +1,6 @@
 using System;
 using Xunit;
-using Palindrome.Library;
+using Palindrome;
 using System.Linq;
 using System.Collections.Generic;
 using System.Text;
