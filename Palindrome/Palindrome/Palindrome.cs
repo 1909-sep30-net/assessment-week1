@@ -8,7 +8,7 @@ namespace Palindrome
     {
         static void Main(string[] args)
         {
-                      
+
             string string1, rev;
             string1 = "racecar";
             char[] ch = string1.ToCharArray();
@@ -27,4 +27,5 @@ namespace Palindrome
             }
 
         }
+    }   
 }
