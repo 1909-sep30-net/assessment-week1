@@ -10,7 +10,7 @@ namespace Palindrome
         {
 
             string string1, rev;
-            string1 = "racecar";
+            string1 = Console.ReadLine();
             char[] ch = string1.ToCharArray();
 
             Array.Reverse(ch);
