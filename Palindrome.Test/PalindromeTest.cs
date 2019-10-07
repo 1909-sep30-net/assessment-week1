@@ -3,12 +3,16 @@ using Xunit;
 
 namespace Palindrome.Test
 {
-    public class UnitTest1
+    public class PalindromeTest
     {
         [Fact]
-        public void Test1()
+        public void IsPalindromeTestIsPalindrome()
         {
+            bool isRacecarTrue = Palindrome.IsPalindrome("racecar");
+            bool isIcecreamTrue = Palindrome.IsPalindrome("ice cream");
 
+            Assert.True(isRacecarTrue);
+            Assert.False(isIcecreamTrue);
         }
     }
 }
