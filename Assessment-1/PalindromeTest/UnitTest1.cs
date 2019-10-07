@@ -16,7 +16,7 @@ namespace PalindromeTest
             var p = new PChecker();
             string test = p.RemoveWhiteSpace(s);
 
-            Assert.Equal(egex.Replace(s, @"s", ""),  test);
+            Assert.Equal(Regex.Replace(s, @"s", ""),  test);
         }
 
         [Theory]
@@ -26,7 +26,7 @@ namespace PalindromeTest
             var p = new PChecker();
             string test = p.ReverseString(s);
             char[] arr = s.ToCharArray();
-            Array.Reverse(arr)
+            Array.Reverse(arr);
 
             Assert.Equal(new string(arr),test);
         }
