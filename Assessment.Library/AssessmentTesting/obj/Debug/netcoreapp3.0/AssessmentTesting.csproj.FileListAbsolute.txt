@@ -1,0 +1,3 @@
+C:\revature\phat-assessment\assessment-week1\Assessment.Library\AssessmentTesting\obj\Debug\netcoreapp3.0\AssessmentTesting.csprojAssemblyReference.cache
+C:\revature\phat-assessment\assessment-week1\Assessment.Library\AssessmentTesting\obj\Debug\netcoreapp3.0\AssessmentTesting.AssemblyInfoInputs.cache
+C:\revature\phat-assessment\assessment-week1\Assessment.Library\AssessmentTesting\obj\Debug\netcoreapp3.0\AssessmentTesting.AssemblyInfo.cs

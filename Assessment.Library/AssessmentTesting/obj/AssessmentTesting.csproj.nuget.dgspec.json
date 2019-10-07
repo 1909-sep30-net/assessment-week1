@@ -1,0 +1,134 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\revature\\phat-assessment\\assessment-week1\\Assessment.Library\\AssessmentTesting\\AssessmentTesting.csproj": {}
+  },
+  "projects": {
+    "C:\\revature\\phat-assessment\\assessment-week1\\Assessment.Library\\Assessment.Library\\Assessment.Library.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\revature\\phat-assessment\\assessment-week1\\Assessment.Library\\Assessment.Library\\Assessment.Library.csproj",
+        "projectName": "Assessment.Library",
+        "projectPath": "C:\\revature\\phat-assessment\\assessment-week1\\Assessment.Library\\Assessment.Library\\Assessment.Library.csproj",
+        "packagesPath": "C:\\Users\\Lee0n\\.nuget\\packages\\",
+        "outputPath": "C:\\revature\\phat-assessment\\assessment-week1\\Assessment.Library\\Assessment.Library\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lee0n\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\revature\\phat-assessment\\assessment-week1\\Assessment.Library\\AssessmentTesting\\AssessmentTesting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\revature\\phat-assessment\\assessment-week1\\Assessment.Library\\AssessmentTesting\\AssessmentTesting.csproj",
+        "projectName": "AssessmentTesting",
+        "projectPath": "C:\\revature\\phat-assessment\\assessment-week1\\Assessment.Library\\AssessmentTesting\\AssessmentTesting.csproj",
+        "packagesPath": "C:\\Users\\Lee0n\\.nuget\\packages\\",
+        "outputPath": "C:\\revature\\phat-assessment\\assessment-week1\\Assessment.Library\\AssessmentTesting\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lee0n\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\revature\\phat-assessment\\assessment-week1\\Assessment.Library\\Assessment.Library\\Assessment.Library.csproj": {
+                "projectPath": "C:\\revature\\phat-assessment\\assessment-week1\\Assessment.Library\\Assessment.Library\\Assessment.Library.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
