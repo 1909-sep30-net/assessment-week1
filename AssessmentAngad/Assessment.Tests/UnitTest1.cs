@@ -28,10 +28,10 @@ namespace Assessment.Tests
 
 
             //Act
-            testString.MainString = "ABXYS";
+            testString.MainString = "123abccba123";
 
             //Assert
-            Assert.Equal(expected: true, actual: testString.CheckPalindrom()); // This test shall fail, since we expect a Palindrome but the Input is not one
+            Assert.Equal(expected: false, actual: testString.CheckPalindrom()); // Change the Expected Parameter to true to see the test fail
 
         }
     }
