@@ -31,7 +31,7 @@ namespace Palindrone
                 }
                 if(i < j)
                 {
-                    if(textArray[i] != textArray[j])
+                    if(Char.ToLower(textArray[i]) != Char.ToLower(textArray[j]))
                     {
                         return false;
                     }
