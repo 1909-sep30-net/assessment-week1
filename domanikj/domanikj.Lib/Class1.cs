@@ -6,22 +6,22 @@ namespace domanikj.Lib
     {
         public bool IsPalindrome(string value)
         {
-            int min = 0;
-            int max = value.Length - 1;
+            int minimun  = 0;
+            int maximun = value.Length - 1;
             while (true)
             {
-                if (min > max)
+                if (minimun > maximun)
                 {
                     return true;
                 }
-                char a = value[min];
-                char b = value[max];
-                if (char.ToLower(a) != char.ToLower(b))
+                char first = value[minimun];
+                char second = value[maximun];
+                if (char.ToLower(first) != char.ToLower(second))
                 {
                     return false;
                 }
-                min++;
-                max--;
+                minimun++;
+                maximun--;
             }
         }
     }
