@@ -16,6 +16,7 @@ namespace Palindrome.Test
             bool isNursesTrue = Palindrome.IsPalindrome("nurses run");
             bool isRacecarCapitalizedTrue = Palindrome.IsPalindrome("racecaR");
             bool isNumbersTrue = Palindrome.IsPalindrome("1221");
+            bool isPunctuationTrue = Palindrome.IsPalindrome("never odd, or even.");
 
             Assert.True(isRacecarTrue);
             Assert.False(isIcecreamTrue);
@@ -26,6 +27,7 @@ namespace Palindrome.Test
             Assert.True(isNursesTrue);
             Assert.True(isRacecarCapitalizedTrue);
             Assert.True(isNumbersTrue);
+            Assert.True(isPunctuationTrue);
         }
     }
 }

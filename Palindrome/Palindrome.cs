@@ -6,7 +6,7 @@ namespace Palindrome
     {
         public static bool IsPalindrome(string str)
         {
-            string stringWithoutWhiteSpace = str.Replace(" ", "").ToLower();
+            string stringWithoutWhiteSpace = str.Replace(" ", "").Replace(",", "").Replace(".", "").ToLower();
             string reversedString = new string(stringWithoutWhiteSpace.Reverse().ToArray());
 
             return string.Compare(stringWithoutWhiteSpace, reversedString) == 0;
