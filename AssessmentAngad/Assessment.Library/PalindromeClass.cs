@@ -12,6 +12,7 @@ namespace Assessment.Library
             string tempString = MainString;
             tempString = MainString.Replace(" ", "");
             tempString = tempString.Replace(",", "");
+            tempString = tempString.Replace(".", "");
             string reversedString = "";
             int length;
 
