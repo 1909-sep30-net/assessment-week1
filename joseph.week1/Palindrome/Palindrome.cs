@@ -2,13 +2,19 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Palindrome
+namespace Joseph.Week1.Palindrome
 {
     public class Palindrome
     {
         public bool IsPalindrom(string s)
         {
-            return false;
+            int front = 0;
+            int back = s.Length;
+
+
+
+
+            return true;
         }
     }
 }
