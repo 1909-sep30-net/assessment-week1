@@ -17,7 +17,8 @@ namespace Palindrome.Test
         {
             var pal = new Palindrome();
             pal.CheckIfPalindrome(item);
-            Assert.True(true, "Returned true");
+
+            Assert.True(pal.CheckIfPalindrome(item) == true);
         }
         [Theory]
         [InlineData("test")]
@@ -26,9 +27,7 @@ namespace Palindrome.Test
         {
             var pal = new Palindrome();
 
-            pal.CheckIfPalindrome(item);
-
-            Assert.True(false, "Returned False");
+            Assert.True(pal.CheckIfPalindrome(item) == false);
         }
 
     }
