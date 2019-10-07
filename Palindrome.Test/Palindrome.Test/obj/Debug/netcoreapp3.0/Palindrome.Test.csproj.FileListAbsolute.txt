@@ -1,0 +1,3 @@
+C:\revature\assessment-week1\Palindrome.Test\Palindrome.Test\obj\Debug\netcoreapp3.0\Palindrome.Test.csprojAssemblyReference.cache
+C:\revature\assessment-week1\Palindrome.Test\Palindrome.Test\obj\Debug\netcoreapp3.0\Palindrome.Test.AssemblyInfoInputs.cache
+C:\revature\assessment-week1\Palindrome.Test\Palindrome.Test\obj\Debug\netcoreapp3.0\Palindrome.Test.AssemblyInfo.cs

@@ -1,6 +1,9 @@
 using System;
 using Xunit;
 using Palindrome.Library;
+using System.Linq;
+using System.Collections.Generic;
+using System.Text;
 
 namespace Palindrome.Test
 {
@@ -12,10 +15,8 @@ namespace Palindrome.Test
         [InlineData ("never odd, or even")]
         public void CheckIfPalindromeReturnTrue(string item)
         {
-            var seq = new Palindrome();
-
+            var pal = new Palindrome();
             pal.CheckIfPalindrome(item);
-
             Assert.True(true);
         }
         [Theory]
@@ -23,7 +24,7 @@ namespace Palindrome.Test
         [InlineData("Fail")]
         public void CheckIfPalindromReturnFalse(string item)
         {
-            var seq = new Palindrome();
+            var pal = new Palindrome();
 
             pal.CheckIfPalindrome(item);
 
