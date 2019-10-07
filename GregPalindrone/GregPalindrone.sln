@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GregPalindrone", "GregPalindrone\GregPalindrone.csproj", "{8913A420-7B82-4FEE-AF2A-BE1AA6B47CB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrone", "Palindrone\Palindrone.csproj", "{43908D24-E34E-4E3C-93D5-E28D44ADFADF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8913A420-7B82-4FEE-AF2A-BE1AA6B47CB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8913A420-7B82-4FEE-AF2A-BE1AA6B47CB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8913A420-7B82-4FEE-AF2A-BE1AA6B47CB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8913A420-7B82-4FEE-AF2A-BE1AA6B47CB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43908D24-E34E-4E3C-93D5-E28D44ADFADF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43908D24-E34E-4E3C-93D5-E28D44ADFADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43908D24-E34E-4E3C-93D5-E28D44ADFADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43908D24-E34E-4E3C-93D5-E28D44ADFADF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03C70CF1-B403-4250-8B26-CA2DD3349C03}
+	EndGlobalSection
+EndGlobal
