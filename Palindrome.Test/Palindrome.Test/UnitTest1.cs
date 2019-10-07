@@ -27,7 +27,7 @@ namespace Palindrome.Test
         {
             var pal = new Palindrome();
 
-            Assert.True(pal.CheckIfPalindrome(item) == false);
+            Assert.False(pal.CheckIfPalindrome(item) == false);
         }
 
     }

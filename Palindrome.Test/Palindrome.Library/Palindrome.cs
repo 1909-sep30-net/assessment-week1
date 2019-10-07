@@ -7,10 +7,8 @@ namespace Palindrome
 {
     public class Palindrome
     {
-        public string input {get; set;}
         public bool CheckIfPalindrome(string input)
         {
-            input = this.input;
             //variable initialization
             char[] charArray;
             string firstHalf;
