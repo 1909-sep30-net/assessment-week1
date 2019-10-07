@@ -12,12 +12,14 @@ namespace Palindrome.Test
             bool isStadiumTrue = Palindrome.IsPalindrome("stadium");
             bool isKeyboardTrue = Palindrome.IsPalindrome("keyboard");
             bool isRacecarWithSpaceTrue = Palindrome.IsPalindrome("race car");
+            bool isGumTrue = Palindrome.IsPalindrome("A tin mug for a jar of gum Nita");
 
             Assert.True(isRacecarTrue);
             Assert.False(isIcecreamTrue);
             Assert.False(isStadiumTrue);
             Assert.False(isKeyboardTrue);
             Assert.True(isRacecarWithSpaceTrue);
+            Assert.True(isGumTrue);
         }
     }
 }
