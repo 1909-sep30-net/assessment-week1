@@ -12,7 +12,7 @@ namespace Palindrome.Test
         [InlineData ("never odd, or even")]
         public void CheckIfPalindromeReturnTrue(string item)
         {
-            var pal = new Palindrome();
+            var seq = new Palindrome();
 
             pal.CheckIfPalindrome(item);
 
@@ -23,7 +23,11 @@ namespace Palindrome.Test
         [InlineData("Fail")]
         public void CheckIfPalindromReturnFalse(string item)
         {
+            var seq = new Palindrome();
 
+            pal.CheckIfPalindrome(item);
+
+            Assert.True(false);
         }
 
     }

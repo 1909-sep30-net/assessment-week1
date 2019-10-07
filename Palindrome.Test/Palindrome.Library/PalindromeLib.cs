@@ -5,10 +5,10 @@ using System.Text;
 
 namespace Palindrome.Library
 {
-    public class Palindrome
+    public class PalindromeLib
     {
         public string input {get; set;}
-        public void CheckIfPalindrome(string input)
+        public bool CheckIfPalindrome(string input)
         {
             input = this.input;
             //variable initialization
