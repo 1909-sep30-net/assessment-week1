@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace PalindromeChecker.Library
+namespace StringChecker.Library
 {
-    public class PalindromeCheck
+    public class Palindrome
     {
 
         public bool CheckForPalindrome (string s)

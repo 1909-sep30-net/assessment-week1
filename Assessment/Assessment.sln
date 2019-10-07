@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.29326.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assessment", "Assessment\Assessment.csproj", "{2DC49030-132E-47D5-AAF2-353E7B85AC78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeChecker.Library", "PalindroneChecker\PalindromeChecker.Library.csproj", "{016A1392-6D2B-4C82-82BD-9015EF855242}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringChecker.Library", "PalindroneChecker\StringChecker.Library.csproj", "{016A1392-6D2B-4C82-82BD-9015EF855242}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeCheckerTest", "PalindroneCheckerTest\PalindromeCheckerTest.csproj", "{94E4B16B-122B-4463-8E0E-3FEE272574A6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeChecker.Tests", "PalindroneCheckerTest\PalindromeChecker.Tests.csproj", "{94E4B16B-122B-4463-8E0E-3FEE272574A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
