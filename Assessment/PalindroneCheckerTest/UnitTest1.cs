@@ -18,15 +18,15 @@ namespace PalindromeCheckerTest
             var c3= new Palindrome();
             var c4 = new Palindrome();
 
-            c1.CheckForPalindrome(s1);
-            c2.CheckForPalindrome(s2);
-            c3.CheckForPalindrome(s3);
-            c4.CheckForPalindrome(s4);
+            bool t1 = c1.CheckForPalindrome(s1);
+            bool t2 = c2.CheckForPalindrome(s2);
+            bool t3 = c3.CheckForPalindrome(s3);
+            bool t4 = c4.CheckForPalindrome(s4);
 
-            Assert.Equal(true, c1);
-            Assert.Equal(true, c2);
-            Assert.Equal(true, c3);
-            Assert.Equal(false, c4);
+            Assert.Equal(true, t1);
+            Assert.Equal(true, t2);
+            Assert.Equal(true, t3);
+            Assert.Equal(false, t4);
 
         }
     }
