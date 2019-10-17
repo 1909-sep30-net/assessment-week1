@@ -1962,6 +1962,16 @@
         "build": {
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "Palindrome.Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Palindrome.Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Palindrome.Library.dll": {}
+        }
       }
     }
   },
@@ -6569,11 +6579,17 @@
         "xunit.runner.visualstudio.2.4.0.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "Palindrome.Library/1.0.0": {
+      "type": "project",
+      "path": "../Palindrome.Library/Palindrome.Library.csproj",
+      "msbuildProject": "../Palindrome.Library/Palindrome.Library.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
       "Microsoft.NET.Test.Sdk >= 16.2.0",
+      "Palindrome.Library >= 1.0.0",
       "coverlet.collector >= 1.0.1",
       "xunit >= 2.4.0",
       "xunit.runner.visualstudio >= 2.4.0"
@@ -6585,11 +6601,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alber\\source\\repos\\1909-sep30-net\\assessment-week1\\Palindrome\\Palindrome.Test\\Palindrome.Test.csproj",
+      "projectUniqueName": "C:\\revature\\assessment-week1\\Palindrome\\Palindrome.Test\\Palindrome.Test.csproj",
       "projectName": "Palindrome.Test",
-      "projectPath": "C:\\Users\\Alber\\source\\repos\\1909-sep30-net\\assessment-week1\\Palindrome\\Palindrome.Test\\Palindrome.Test.csproj",
+      "projectPath": "C:\\revature\\assessment-week1\\Palindrome\\Palindrome.Test\\Palindrome.Test.csproj",
       "packagesPath": "C:\\Users\\Alber\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alber\\source\\repos\\1909-sep30-net\\assessment-week1\\Palindrome\\Palindrome.Test\\obj\\",
+      "outputPath": "C:\\revature\\assessment-week1\\Palindrome\\Palindrome.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alber\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6604,7 +6620,11 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\revature\\assessment-week1\\Palindrome\\Palindrome.Library\\Palindrome.Library.csproj": {
+              "projectPath": "C:\\revature\\assessment-week1\\Palindrome\\Palindrome.Library\\Palindrome.Library.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
